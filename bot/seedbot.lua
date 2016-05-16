@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {( 132855224 )},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -254,7 +254,7 @@ Persian: @IranSeed
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [name]
+!ساخت گروه [name]
 Create a group
 
 !createrealm [name]
@@ -311,7 +311,7 @@ Send text to all groups
 » Only sudo users can run this command
 
 !bc [group_id] [text]
-!bc 123456789 Hello !
+!bc 132855224 Hello !
 This command will send text to [group_id]
 
 » U can use both "/" and "!" 
@@ -383,10 +383,10 @@ Set [text] as about
 !settings
 Returns group settings
 
-!newlink
+!لینک جدید
 Create/revoke your group link
 
-!link
+!لینک
 Returns group link
 
 !owner
@@ -515,3 +515,5 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
+,
+    
